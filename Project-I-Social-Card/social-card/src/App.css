@@ -46,12 +46,18 @@ h2{
 
 .cardContainer{
   margin-left: 70px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .cardContainer .img{
   height: 300px;
   overflow: hidden;
-  margin: 10px 0;
+}
+
+.cardContent{
+  margin: 10px;
 }
 
 .footer{

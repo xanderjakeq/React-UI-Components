@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardContent = (props) => {
     return (
-        <div>
+        <div className = "cardContent">
             <h2>{props.title}</h2>
             <p>{props.paragraph}</p>
             <a href={props.link}>{props.link}</a>
