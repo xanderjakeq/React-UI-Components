@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from './components/HeaderComponents/HeaderContainer';
 import CardContent from './components/CardComponents/CardContainer';
+import Footer from './components/FooterComponents/Footer'
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         paragraph = "React makes it painless to create interactive UIs. Design simple views for each state in your application."
         link = "reactjs.org"/>
 
+        <Footer comments = "2" retweets = "6" likes = "100" messages = "10"/>
     </div>
   );
 };
