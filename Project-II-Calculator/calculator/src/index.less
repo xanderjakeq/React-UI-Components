@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &:focus{
+        outline-color: aqua;
+    }
+}
+
+button{
+    display: block;
+    padding:0;
+    border:0;
+    border: 1px solid black
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: fit-content;
+    margin: 0 auto;
+
+    input{
+        background-color: darkcyan;
+        padding: 10px;
+        border:0;
+        // direction: rtl;
+    }
+
+    .innerContainer{
+        display: flex;
+        
+    }
+
+    .clearAndNumbers{
+        
+        flex-grow: 2;
+        button{
+            width: 100%;
+        }
+        div{
+            display: flex;
+            flex-wrap: wrap-reverse;
+            button{
+                width: 33.339%;
+            }
+        }
+    }
+
+    .ops{
+        flex-grow: 1;
+        button{
+            width: 100%;
+        }
+    }
+
+    
+
+}
+
