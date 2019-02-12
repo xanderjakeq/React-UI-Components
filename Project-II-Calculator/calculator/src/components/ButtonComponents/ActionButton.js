@@ -3,7 +3,7 @@ import './Button.css';
 
 
 const ActionButton = (props) => {
-    return <button onClick = {() => props.onClick(props.op)}>{props.op}</button>   
+    return <button className = {props.style} onClick = {() => props.onClick(props.op)}>{props.op}</button>   
 }
 
 

@@ -4,7 +4,7 @@ import './Button.css';
 
 const NumberButton = (props) => {
     return (
-        <button onClick = {() => props.onClick(props.num)}>
+        <button className = {props.style} onClick = {() => props.onClick(props.num)}>
             <span>{props.num}</span>
         </button>
     );

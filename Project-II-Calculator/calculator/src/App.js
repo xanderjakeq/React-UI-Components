@@ -50,27 +50,27 @@ class App extends Component {
 
         <div className="innerContainer">
           <div className = "clearAndNumbers">
-            <ActionButton onClick ={this.clear} op = "clear" />
+            <ActionButton style = "white" onClick ={this.clear} op = "clear" />
             <div>
-              <NumberButton onClick = {this.input} num = {1}/>
-              <NumberButton onClick = {this.input} num = {2}/>
-              <NumberButton onClick = {this.input} num = {3}/>
-              <NumberButton onClick = {this.input} num = {4}/>
-              <NumberButton onClick = {this.input} num = {5}/>
-              <NumberButton onClick = {this.input} num = {6}/>
-              <NumberButton onClick = {this.input} num = {7}/>
-              <NumberButton onClick = {this.input} num = {8}/>
-              <NumberButton onClick = {this.input} num = {9}/>
+              <NumberButton style = "white" onClick = {this.input} num = {1}/>
+              <NumberButton style = "white" onClick = {this.input} num = {2}/>
+              <NumberButton style = "white" onClick = {this.input} num = {3}/>
+              <NumberButton style = "white" onClick = {this.input} num = {4}/>
+              <NumberButton style = "white" onClick = {this.input} num = {5}/>
+              <NumberButton style = "white" onClick = {this.input} num = {6}/>
+              <NumberButton style = "white" onClick = {this.input} num = {7}/>
+              <NumberButton style = "white" onClick = {this.input} num = {8}/>
+              <NumberButton style = "white" onClick = {this.input} num = {9}/>
             </div>
-            <NumberButton onClick = {this.input} num = {0}/>
+            <NumberButton style = "white" onClick = {this.input} num = {0}/>
           </div>
 
         <div className = "ops">
-          <ActionButton onClick ={this.clear} op = "/"/>
-          <ActionButton onClick ={this.clear} op = "*"/>
-          <ActionButton onClick ={this.clear} op = "-"/>
-          <ActionButton onClick ={this.clear} op = "+"/>
-          <ActionButton onClick ={this.clear} op = "="/>
+          <ActionButton style = "red" onClick ={this.clear} op = "/"/>
+          <ActionButton style = "red" onClick ={this.clear} op = "*"/>
+          <ActionButton style = "red" onClick ={this.clear} op = "-"/>
+          <ActionButton style = "red" onClick ={this.clear} op = "+"/>
+          <ActionButton style = "red" onClick ={this.clear} op = "="/>
         </div>
 
         </div>

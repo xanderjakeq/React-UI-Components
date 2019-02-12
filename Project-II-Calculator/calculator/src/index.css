@@ -26,6 +26,7 @@ button {
   background-color: darkcyan;
   padding: 10px;
   border: 0;
+  color: white;
 }
 .container .innerContainer {
   display: flex;
@@ -48,4 +49,11 @@ button {
 }
 .container .ops button {
   width: 100%;
+}
+.white {
+  background-color: white;
+}
+.red {
+  background-color: red;
+  color: white;
 }
