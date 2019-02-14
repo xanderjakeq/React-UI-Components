@@ -2,3 +2,71 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  width: 530px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+h1{
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+h2{
+  font-size: 1rem;
+}
+
+.header h2{
+  color: lightgray;
+}
+
+
+.header img{
+  width: 50px;
+  margin:  0 10px;
+  border-radius: 100px;
+}
+
+.header div {
+  display: inline-block;
+}
+
+.cardContainer{
+  margin-left: 70px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.cardContainer .img{
+  height: 300px;
+  overflow: hidden;
+}
+
+.cardContent{
+  margin: 10px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.footer span{
+  margin: 0 20px 0 4px;
+}

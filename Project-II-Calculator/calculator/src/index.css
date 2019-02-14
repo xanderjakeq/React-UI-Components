@@ -1,5 +1,63 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  box-sizing: border-box;
+}
+*:focus {
+  outline-color: aqua;
+}
+button {
+  display: block;
+  padding: 0;
+  border: 0;
+  border: 1px solid lightgray;
+  height: 50px;
+}
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  width: fit-content;
+  margin: 0 auto;
+}
+.container input {
+  background-color: darkcyan;
+  padding: 10px;
+  border: 0;
+  color: white;
+  width: 300px;
+}
+.container .innerContainer {
+  display: flex;
+}
+.container .clearAndNumbers {
+  flex-grow: 2;
+}
+.container .clearAndNumbers button {
+  width: 100%;
+}
+.container .clearAndNumbers div {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.container .clearAndNumbers div button {
+  width: 33.33%;
+}
+.container .ops {
+  flex-grow: 1;
+}
+.container .ops button {
+  width: 100%;
+}
+.white {
+  background-color: white;
+  font-size: 1rem;
+}
+.red {
+  background-color: crimson;
+  color: white;
+  font-size: 2rem;
 }
